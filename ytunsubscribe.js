@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         YouTube Unsubscribe Manager CSP Safe Final
 // @namespace    https://www.nullpk.com
-// @version      4.2
+// @version      4.3
 // @description  CSP-safe YouTube unsubscribe manager with dry-run, test scan, pause, stop, skip words, safer real mode, and footer credit.
 // @author       Naqash Afzal
 // @homepage     https://www.nullpk.com
 // @supportURL   https://www.nullpk.com
-// @match        https://www.youtube.com/*
+// @match        https://www.youtube.com/feed/channels*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
@@ -20,6 +20,7 @@
         Website: https://www.nullpk.com
 
         Features:
+        - Only visible on https://www.youtube.com/feed/channels
         - CSP-safe UI, no innerHTML
         - Dry-run mode
         - Test Scan
